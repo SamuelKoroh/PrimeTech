@@ -72,18 +72,17 @@ namespace PrimeTech.Api
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-                app.UseSwagger();
-                app.UseSwaggerUI(c =>
-                {
-                    c.RoutePrefix = string.Empty;
-                    c.SwaggerEndpoint("/swagger/v1/swagger.json", "Prime Tech API");
-                });
             }
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
-            
 
+            app.UseSwagger();
+            app.UseSwaggerUI(c =>
+            {
+                c.RoutePrefix = string.Empty;
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Prime Tech API");
+            });
             app.UseRouting();
 
             app.UseAuthorization();
