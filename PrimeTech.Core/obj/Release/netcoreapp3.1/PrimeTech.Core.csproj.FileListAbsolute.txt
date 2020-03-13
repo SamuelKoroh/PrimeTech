@@ -1,0 +1,8 @@
+C:\Projects\ASPNET\PrimeTech\PrimeTech.Core\bin\Release\netcoreapp3.1\PrimeTech.Core.deps.json
+C:\Projects\ASPNET\PrimeTech\PrimeTech.Core\bin\Release\netcoreapp3.1\PrimeTech.Core.dll
+C:\Projects\ASPNET\PrimeTech\PrimeTech.Core\bin\Release\netcoreapp3.1\PrimeTech.Core.pdb
+C:\Projects\ASPNET\PrimeTech\PrimeTech.Core\obj\Release\netcoreapp3.1\PrimeTech.Core.csprojAssemblyReference.cache
+C:\Projects\ASPNET\PrimeTech\PrimeTech.Core\obj\Release\netcoreapp3.1\PrimeTech.Core.AssemblyInfoInputs.cache
+C:\Projects\ASPNET\PrimeTech\PrimeTech.Core\obj\Release\netcoreapp3.1\PrimeTech.Core.AssemblyInfo.cs
+C:\Projects\ASPNET\PrimeTech\PrimeTech.Core\obj\Release\netcoreapp3.1\PrimeTech.Core.dll
+C:\Projects\ASPNET\PrimeTech\PrimeTech.Core\obj\Release\netcoreapp3.1\PrimeTech.Core.pdb

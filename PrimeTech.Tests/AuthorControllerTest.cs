@@ -1,13 +1,22 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Mvc.Testing;
+using PrimeTech.Api;
+using System;
 using System.Collections.Generic;
 using System.Net;
+using System.Net.Http;
 using System.Text;
 using Xunit;
 
 namespace PrimeTech.Test
 {
-    public class AuthorControllerTest : InitialSetup
+    public class AuthorControllerTest
     {
+        private HttpClient httpClient;
+        public AuthorControllerTest()
+        {
+            var appFactory = new WebApplicationFactory<Startup>();
+            httpClient = appFactory.CreateClient();
+        }
         [Fact]
         public async void Register_ReturnOk_IfSuccess()
         {
