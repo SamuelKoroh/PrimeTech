@@ -133,7 +133,9 @@ C:\Projects\ASPNET\PrimeTech\PrimeTech.Api\bin\Debug\netcoreapp3.1\ru\Microsoft.
 C:\Projects\ASPNET\PrimeTech\PrimeTech.Api\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Projects\ASPNET\PrimeTech\PrimeTech.Api\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Projects\ASPNET\PrimeTech\PrimeTech.Api\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Projects\ASPNET\PrimeTech\PrimeTech.Api\obj\Debug\netcoreapp3.1\PrimeTech.Api.MvcApplicationPartsAssemblyInfo.cs
-C:\Projects\ASPNET\PrimeTech\PrimeTech.Api\obj\Debug\netcoreapp3.1\PrimeTech.Api.MvcApplicationPartsAssemblyInfo.cache
 C:\Projects\ASPNET\PrimeTech\PrimeTech.Api\bin\Debug\netcoreapp3.1\PrimeTech.Api.xml
 C:\Projects\ASPNET\PrimeTech\PrimeTech.Api\obj\Debug\netcoreapp3.1\PrimeTech.Api.xml
+C:\Projects\ASPNET\PrimeTech\PrimeTech.Api\bin\Debug\netcoreapp3.1\Npgsql.dll
+C:\Projects\ASPNET\PrimeTech\PrimeTech.Api\bin\Debug\netcoreapp3.1\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Projects\ASPNET\PrimeTech\PrimeTech.Api\obj\Debug\netcoreapp3.1\PrimeTech.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Projects\ASPNET\PrimeTech\PrimeTech.Api\obj\Debug\netcoreapp3.1\PrimeTech.Api.MvcApplicationPartsAssemblyInfo.cache

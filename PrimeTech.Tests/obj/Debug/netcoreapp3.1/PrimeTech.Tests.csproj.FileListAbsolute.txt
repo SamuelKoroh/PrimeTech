@@ -970,3 +970,5 @@ C:\Projects\ASPNET\PrimeTech\PrimeTech.Tests\obj\Debug\netcoreapp3.1\PrimeTech.T
 C:\Projects\ASPNET\PrimeTech\PrimeTech.Tests\obj\Debug\netcoreapp3.1\PrimeTech.Tests.csproj.CopyComplete
 C:\Projects\ASPNET\PrimeTech\PrimeTech.Tests\obj\Debug\netcoreapp3.1\PrimeTech.Tests.dll
 C:\Projects\ASPNET\PrimeTech\PrimeTech.Tests\obj\Debug\netcoreapp3.1\PrimeTech.Tests.pdb
+C:\Projects\ASPNET\PrimeTech\PrimeTech.Tests\bin\Debug\netcoreapp3.1\Npgsql.dll
+C:\Projects\ASPNET\PrimeTech\PrimeTech.Tests\bin\Debug\netcoreapp3.1\Npgsql.EntityFrameworkCore.PostgreSQL.dll

@@ -30,14 +30,15 @@ namespace PrimeTech.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<PrimeTechDbContext>(opt => 
-                opt.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+            services.AddDbContext<PrimeTechDbContext>(opt =>
+                opt.UseNpgsql(Configuration.GetConnectionString("DATABASE_URL")));
+
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo 
+                c.SwaggerDoc("v1", new OpenApiInfo
                 {
-                    Version ="v1",
-                    Title="Prime Tech Api"
+                    Version = "v1",
+                    Title = "Prime Tech Api"
                 });
                 c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
                 {
@@ -74,6 +75,9 @@ namespace PrimeTech.Api
                 app.UseDeveloperExceptionPage();
             }
 
+
+            UpdateDatabase(app);
+
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 
@@ -86,11 +90,21 @@ namespace PrimeTech.Api
             app.UseRouting();
 
             app.UseAuthorization();
-            
+
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
             });
+        }
+        private static void UpdateDatabase(IApplicationBuilder app)
+        {
+            using (var serviceScope = app.ApplicationServices
+                .GetRequiredService<IServiceScopeFactory>()
+                .CreateScope())
+            {
+                using var context = serviceScope.ServiceProvider.GetService<PrimeTechDbContext>();
+                context.Database.Migrate();
+            }
         }
     }
 }

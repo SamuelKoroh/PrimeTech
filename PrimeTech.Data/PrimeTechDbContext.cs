@@ -9,6 +9,8 @@ namespace PrimeTech.Data
 {
     public class PrimeTechDbContext : IdentityDbContext<ApplicationUser>
     {
+        public DbSet<Category> Categories { get; set; }
+        public DbSet<SubCategory> SubCategories { get; set; }
         public PrimeTechDbContext(DbContextOptions<PrimeTechDbContext> options)
             : base(options){}
     }

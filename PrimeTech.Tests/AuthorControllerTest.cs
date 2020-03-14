@@ -9,14 +9,9 @@ using Xunit;
 
 namespace PrimeTech.Test
 {
-    public class AuthorControllerTest
+    public class AuthorControllerTest : InitialSetup
     {
-        private HttpClient httpClient;
-        public AuthorControllerTest()
-        {
-            var appFactory = new WebApplicationFactory<Startup>();
-            httpClient = appFactory.CreateClient();
-        }
+        
         [Fact]
         public async void Register_ReturnOk_IfSuccess()
         {
