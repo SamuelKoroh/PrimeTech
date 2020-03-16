@@ -8,4 +8,8 @@
     <PackageReference Include="Microsoft.Extensions.Identity.Stores" Version="3.1.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\PrimeTech.Infrastructure\PrimeTech.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>

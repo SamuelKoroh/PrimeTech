@@ -1,9 +1,6 @@
 ﻿using PrimeTech.Core;
 using PrimeTech.Core.Repositories;
 using PrimeTech.Data.Repositories;
-using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace PrimeTech.Data

@@ -1,9 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using Microsoft.AspNetCore.Mvc;
+using PrimeTech.Core.Services;
+using PrimeTech.Infrastructure.Resources.Auth;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
 
 namespace PrimeTech.Api.Controllers
 {
@@ -11,10 +9,20 @@ namespace PrimeTech.Api.Controllers
     [ApiController]
     public class AuthController : ControllerBase
     {
-        [HttpGet("register")]
-        public IActionResult Register()
+        private readonly IAuthService _authService;
+        public AuthController(IAuthService authService)
         {
-            return Ok();
+            _authService = authService;
+        }
+        [HttpPost("register")]
+        public async Task<IActionResult> Register([FromBody] RegisterResource registerResource)
+        {
+            var result = await _authService.RegisterAsync(registerResource);
+
+            if (!result.Succeeded)
+                return BadRequest(result.ErrorMessage);
+
+            return Ok(result.Data);
         }
     }
 }

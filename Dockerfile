@@ -2,6 +2,7 @@
 FROM mcr.microsoft.com/dotnet/core/sdk:3.1 AS build
 WORKDIR /src
 COPY *.sln .
+COPY PrimeTech.Infrastructure/*.csproj PrimeTech.Infrastructure/
 COPY PrimeTech.Core/*.csproj PrimeTech.Core/
 COPY PrimeTech.Data/*.csproj PrimeTech.Data/
 COPY PrimeTech.Api/*.csproj PrimeTech.Api/

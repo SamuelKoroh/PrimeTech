@@ -11,3 +11,5 @@ C:\Projects\ASPNET\PrimeTech\PrimeTech.Data\bin\Debug\netcoreapp3.1\PrimeTech.Da
 C:\Projects\ASPNET\PrimeTech\PrimeTech.Data\bin\Debug\netcoreapp3.1\PrimeTech.Data.pdb
 C:\Projects\ASPNET\PrimeTech\PrimeTech.Data\obj\Debug\netcoreapp3.1\PrimeTech.Data.dll
 C:\Projects\ASPNET\PrimeTech\PrimeTech.Data\obj\Debug\netcoreapp3.1\PrimeTech.Data.pdb
+C:\Projects\ASPNET\PrimeTech\PrimeTech.Data\bin\Debug\netcoreapp3.1\PrimeTech.Infrastructure.dll
+C:\Projects\ASPNET\PrimeTech\PrimeTech.Data\bin\Debug\netcoreapp3.1\PrimeTech.Infrastructure.pdb

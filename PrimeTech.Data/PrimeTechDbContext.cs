@@ -1,9 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Text;
 using PrimeTech.Core.Models;
 using Microsoft.EntityFrameworkCore;
+using PrimeTech.Data.EntityConfigurations;
 
 namespace PrimeTech.Data
 {
@@ -13,5 +11,17 @@ namespace PrimeTech.Data
         public DbSet<SubCategory> SubCategories { get; set; }
         public PrimeTechDbContext(DbContextOptions<PrimeTechDbContext> options)
             : base(options){}
+
+        protected override void OnModelCreating(ModelBuilder builder)
+        {
+            builder.ApplyConfiguration(new UserConfiguration());
+            builder.ApplyConfiguration(new CategoryConfiguration());
+            builder.ApplyConfiguration(new SubCategoryConfiguration());
+            base.OnModelCreating(builder);
+        }
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            base.OnConfiguring(optionsBuilder);
+        }
     }
 }

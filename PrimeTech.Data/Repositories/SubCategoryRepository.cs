@@ -1,8 +1,5 @@
 ﻿using PrimeTech.Core.Models;
 using PrimeTech.Core.Repositories;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace PrimeTech.Data.Repositories
 {

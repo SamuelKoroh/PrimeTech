@@ -14,6 +14,7 @@ using System.Reflection;
 [assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("PrimeTech.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\Projects\\ASPNET\\PrimeTech\\PrimeTech.Api", "PrimeTech.Api.csproj", "0")]
 [assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("PrimeTech.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\Projects\\ASPNET\\PrimeTech\\PrimeTech.Core", "PrimeTech.Core.csproj", "0")]
 [assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("PrimeTech.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\Projects\\ASPNET\\PrimeTech\\PrimeTech.Data", "PrimeTech.Data.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("PrimeTech.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\Projects\\ASPNET\\PrimeTech\\PrimeTech.Infrastructure", "PrimeTech.Infrastructure.csproj", "0")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("PrimeTech.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]

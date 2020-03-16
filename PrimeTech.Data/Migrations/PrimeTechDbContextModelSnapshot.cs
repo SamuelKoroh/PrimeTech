@@ -157,6 +157,14 @@ namespace PrimeTech.Data.Migrations
                     b.Property<int>("AccessFailedCount")
                         .HasColumnType("integer");
 
+                    b.Property<string>("Address")
+                        .HasColumnType("character varying(200)")
+                        .HasMaxLength(200);
+
+                    b.Property<string>("City")
+                        .HasColumnType("character varying(50)")
+                        .HasMaxLength(50);
+
                     b.Property<string>("ConcurrencyStamp")
                         .IsConcurrencyToken()
                         .HasColumnType("text");
@@ -169,10 +177,19 @@ namespace PrimeTech.Data.Migrations
                         .HasColumnType("boolean");
 
                     b.Property<string>("FirstName")
-                        .HasColumnType("text");
+                        .IsRequired()
+                        .HasColumnType("character varying(50)")
+                        .HasMaxLength(50);
+
+                    b.Property<bool>("IsActive")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("boolean")
+                        .HasDefaultValue(false);
 
                     b.Property<string>("LastName")
-                        .HasColumnType("text");
+                        .IsRequired()
+                        .HasColumnType("character varying(50)")
+                        .HasMaxLength(50);
 
                     b.Property<bool>("LockoutEnabled")
                         .HasColumnType("boolean");
@@ -191,9 +208,6 @@ namespace PrimeTech.Data.Migrations
                     b.Property<string>("PasswordHash")
                         .HasColumnType("text");
 
-                    b.Property<string>("Phone")
-                        .HasColumnType("text");
-
                     b.Property<string>("PhoneNumber")
                         .HasColumnType("text");
 
@@ -203,12 +217,20 @@ namespace PrimeTech.Data.Migrations
                     b.Property<string>("SecurityStamp")
                         .HasColumnType("text");
 
+                    b.Property<string>("State")
+                        .HasColumnType("character varying(50)")
+                        .HasMaxLength(50);
+
                     b.Property<bool>("TwoFactorEnabled")
                         .HasColumnType("boolean");
 
                     b.Property<string>("UserName")
                         .HasColumnType("character varying(256)")
                         .HasMaxLength(256);
+
+                    b.Property<string>("Website")
+                        .HasColumnType("character varying(200)")
+                        .HasMaxLength(200);
 
                     b.HasKey("Id");
 
@@ -230,7 +252,13 @@ namespace PrimeTech.Data.Migrations
                         .HasAnnotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn);
 
                     b.Property<string>("CatName")
-                        .HasColumnType("text");
+                        .IsRequired()
+                        .HasColumnType("character varying(50)")
+                        .HasMaxLength(50);
+
+                    b.Property<string>("Description")
+                        .HasColumnType("character varying(400)")
+                        .HasMaxLength(400);
 
                     b.HasKey("Id");
 
@@ -244,8 +272,14 @@ namespace PrimeTech.Data.Migrations
                         .HasColumnType("integer")
                         .HasAnnotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn);
 
+                    b.Property<string>("Description")
+                        .HasColumnType("character varying(400)")
+                        .HasMaxLength(400);
+
                     b.Property<string>("SubCatName")
-                        .HasColumnType("text");
+                        .IsRequired()
+                        .HasColumnType("character varying(50)")
+                        .HasMaxLength(50);
 
                     b.HasKey("Id");
 

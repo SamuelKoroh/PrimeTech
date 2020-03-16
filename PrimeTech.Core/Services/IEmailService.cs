@@ -1,10 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Threading.Tasks;
 
 namespace PrimeTech.Core.Services
 {
-    class IEmailService
+    public interface IEmailService
     {
+        Task SendEmailAsync(string message, string subject, string to);
     }
 }
