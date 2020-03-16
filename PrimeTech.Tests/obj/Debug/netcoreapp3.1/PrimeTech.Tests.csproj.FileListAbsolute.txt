@@ -991,3 +991,4 @@ C:\Projects\ASPNET\PrimeTech\PrimeTech.Tests\bin\Debug\netcoreapp3.1\runtimes\un
 C:\Projects\ASPNET\PrimeTech\PrimeTech.Tests\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Data.SqlClient.dll
 C:\Projects\ASPNET\PrimeTech\PrimeTech.Tests\bin\Debug\netcoreapp3.1\PrimeTech.Infrastructure.dll
 C:\Projects\ASPNET\PrimeTech\PrimeTech.Tests\bin\Debug\netcoreapp3.1\PrimeTech.Infrastructure.pdb
+C:\Projects\ASPNET\PrimeTech\PrimeTech.Tests\bin\Debug\netcoreapp3.1\SendGrid.dll
