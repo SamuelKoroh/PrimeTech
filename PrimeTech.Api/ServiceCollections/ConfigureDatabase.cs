@@ -14,7 +14,7 @@ namespace PrimeTech.Api.ServiceCollections
     {
         public void configureService(IServiceCollection services, IConfiguration configuration)
         {
-            var connectionString = configuration.GetConnectionString("DATABASE_URL");
+            var connectionString = configuration.GetConnectionString("DefaultConnection");
 
             services.AddDbContext<PrimeTechDbContext>(opt => opt.UseNpgsql(connectionString));
             services.AddIdentity<ApplicationUser, IdentityRole>( config => {

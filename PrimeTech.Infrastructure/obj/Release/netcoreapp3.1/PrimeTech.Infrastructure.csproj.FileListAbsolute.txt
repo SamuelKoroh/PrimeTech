@@ -1,0 +1,7 @@
+C:\Projects\ASPNET\PrimeTech\PrimeTech.Infrastructure\bin\Release\netcoreapp3.1\PrimeTech.Infrastructure.deps.json
+C:\Projects\ASPNET\PrimeTech\PrimeTech.Infrastructure\bin\Release\netcoreapp3.1\PrimeTech.Infrastructure.dll
+C:\Projects\ASPNET\PrimeTech\PrimeTech.Infrastructure\bin\Release\netcoreapp3.1\PrimeTech.Infrastructure.pdb
+C:\Projects\ASPNET\PrimeTech\PrimeTech.Infrastructure\obj\Release\netcoreapp3.1\PrimeTech.Infrastructure.AssemblyInfoInputs.cache
+C:\Projects\ASPNET\PrimeTech\PrimeTech.Infrastructure\obj\Release\netcoreapp3.1\PrimeTech.Infrastructure.AssemblyInfo.cs
+C:\Projects\ASPNET\PrimeTech\PrimeTech.Infrastructure\obj\Release\netcoreapp3.1\PrimeTech.Infrastructure.dll
+C:\Projects\ASPNET\PrimeTech\PrimeTech.Infrastructure\obj\Release\netcoreapp3.1\PrimeTech.Infrastructure.pdb
