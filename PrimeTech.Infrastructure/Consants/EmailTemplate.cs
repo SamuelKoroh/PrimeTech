@@ -7,5 +7,6 @@ namespace PrimeTech.Infrastructure.Consants
     public static class EmailTemplate
     {
         public const string ConfirmEmail = "EmailTemplate/confirm-email.html";
+        public const string ForgetPassword = "EmailTemplate/forget-password.html";
     }
 }

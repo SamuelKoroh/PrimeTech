@@ -13,6 +13,6 @@ namespace PrimeTech.Core.Services
         Task<GenericResponse<StatusResponse>> ResendEmailConfirmationLinkAsync(EmailResource emailResource);
         Task<GenericResponse<StatusResponse>> ForgetPasswordAsync(EmailResource emailResource);
         Task<GenericResponse<StatusResponse>> ResetPasswordAsync(ResetPasswordResource resetPasswordResource);
-        Task<GenericResponse<StatusResponse>> ChangePasswordAsync(ChangePasswordResource emailResource);
+        Task<GenericResponse<StatusResponse>> ChangePasswordAsync(string userId, ChangePasswordResource emailResource);
     }
 }

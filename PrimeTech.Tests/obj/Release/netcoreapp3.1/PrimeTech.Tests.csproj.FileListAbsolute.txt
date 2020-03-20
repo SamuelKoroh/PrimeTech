@@ -506,3 +506,8 @@ C:\Projects\ASPNET\PrimeTech\PrimeTech.Tests\obj\Release\netcoreapp3.1\PrimeTech
 C:\Projects\ASPNET\PrimeTech\PrimeTech.Tests\obj\Release\netcoreapp3.1\PrimeTech.Tests.csproj.CopyComplete
 C:\Projects\ASPNET\PrimeTech\PrimeTech.Tests\obj\Release\netcoreapp3.1\PrimeTech.Tests.dll
 C:\Projects\ASPNET\PrimeTech\PrimeTech.Tests\obj\Release\netcoreapp3.1\PrimeTech.Tests.pdb
+C:\Projects\ASPNET\PrimeTech\PrimeTech.Tests\bin\Release\netcoreapp3.1\EmailTemplate\forget-password.html
+C:\Projects\ASPNET\PrimeTech\PrimeTech.Tests\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Projects\ASPNET\PrimeTech\PrimeTech.Tests\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Projects\ASPNET\PrimeTech\PrimeTech.Tests\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Projects\ASPNET\PrimeTech\PrimeTech.Tests\bin\Release\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
